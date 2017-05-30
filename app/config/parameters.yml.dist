@@ -8,15 +8,14 @@ parameters:
     database_name:     symfony
     database_user:     root
     database_password: ~
-    # You should uncomment this if you want use pdo_sqlite
-    # database_path: "%kernel.root_dir%/data.db3"
+    # You should uncomment this if you want to use pdo_sqlite
+    #database_path: '%kernel.project_dir%/var/data/data.sqlite'
 
-    mailer_transport:  smtp
-    mailer_host:       127.0.0.1
-    mailer_port:       25
-    mailer_user:       ~
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: ~
     mailer_password: ~
     mailer_encryption: tls
 
     # A secret key that's used to generate certain security-related tokens
-    secret:            ThisTokenIsNotSoSecretChangeIt
+    secret: ThisTokenIsNotSoSecretChangeIt
