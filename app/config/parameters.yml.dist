@@ -16,6 +16,7 @@ parameters:
     mailer_user: ~
     mailer_password: ~
     mailer_encryption: tls
+    mailer_port: 2525
 
     # A secret key that's used to generate certain security-related tokens
     secret: ThisTokenIsNotSoSecretChangeIt
